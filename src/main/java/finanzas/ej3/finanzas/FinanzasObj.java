@@ -21,6 +21,9 @@ public class FinanzasObj {
         double dolares = scanner.nextDouble();
         double euros = finanza.dolaresToEuros(dolares);
         System.out.println(dolares + " dólares son " + euros + " euros.");
+        
+        System.out.println("Mi programa Diego Berdial");   
+
 
         // Solicitar al usuario que introduzca los euros
         System.out.print("Introduce la cantidad de euros que tienes: ");
